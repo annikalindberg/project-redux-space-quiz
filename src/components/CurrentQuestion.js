@@ -28,6 +28,7 @@ export const CurrentQuestion = () => {
       {!state.quizOver ? (
         <>
           <Header />
+          <button className="restart-button" type="button" onClick={onRestartClick}>Restart quiz</button>
           <div className="questionContainer">
             <p>{question.questionText}</p>
             {question.options.map((singleOption, index) =>
@@ -49,7 +50,6 @@ export const CurrentQuestion = () => {
         </div>
       )}
       {/* The restart button visible on all pages since it's out of the ternary expression */}
-      <button className="restart-button" type="button" onClick={onRestartClick}>Restart quiz</button>
     </>
   )
 }
