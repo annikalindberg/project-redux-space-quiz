@@ -10,6 +10,7 @@ footer {
     background-color: rgba(84, 131, 172, 0.843);
     /* Adjust height as needed */
     z-index: 999;
+    padding: 0;
     /* Ensure it's above other content if necessary */
   }
   

@@ -12,7 +12,7 @@
 }
 
 .quizTitle {
-    font-size: 36px;
+    font-size: 20px;
     /* Reduce font size for mobile */
     font-weight: 700;
     /* Reduce font weight for mobile */
@@ -27,7 +27,7 @@
     }
 
                                                                 .quizTitle {
-                                                                    font-size: 60px;
+                                                                    font-size: 40px;
         /* Restore font size for larger screens */
         font-weight: 900;
         /* Restore font weight for larger screens */
