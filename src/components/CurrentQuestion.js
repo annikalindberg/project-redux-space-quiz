@@ -29,7 +29,7 @@ export const CurrentQuestion = () => {
         <>
           <Header />
           <div className="questionContainer">
-            <h1>{question.questionText}</h1>
+            <p>{question.questionText}</p>
             {question.options.map((singleOption, index) =>
             // eslint-disable-next-line implicit-arrow-linebreak
               <button

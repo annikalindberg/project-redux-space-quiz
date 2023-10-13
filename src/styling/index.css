@@ -7,10 +7,14 @@ body {
   background-size: cover;
   font-family: 'Space Grotesk', sans-serif;
 
+
 }
 
 code {
 
   font-family: 'Space Grotesk', sans-serif;
-  
+}
+
+* {
+  box-sizing: border-box;
 }

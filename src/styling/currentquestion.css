@@ -32,8 +32,8 @@
     background-color: #8AC6D0;
 }
 
-h1 {
-    font-size: 1.2rem;
+p {
+    font-size: 1rem;
         /* Increase font size for mobile */
         margin: 10% 10%;
         /* Adjust margins for mobile */
@@ -62,12 +62,10 @@ h1 {
         /* Restore padding for larger screens */
     }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                h1 {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    font-size: 1.5rem;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    /* Restore font size for larger screens */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    margin: 10% 20%;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    /* Restore margins for larger screens */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+                                p {
+                                    font-size: 1rem;
+                                    /* Restore font size for larger screens */
+        margin: 5% 10%;
+            /* Restore margins for larger screens */
+        }
 }
-
-/* Add more breakpoints and adjust styles as needed for other screen sizes */
