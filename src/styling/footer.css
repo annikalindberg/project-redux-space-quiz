@@ -1,17 +1,23 @@
 
 footer {
-    margin-top: 20px;
-    /* height: 120px; */
-    padding: 5px;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
+  /* Keep other styles you have */
+  
+    /* Add these styles to make the footer sticky */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(84, 131, 172, 0.843);
+    /* Adjust height as needed */
+    z-index: 999;
+    /* Ensure it's above other content if necessary */
   }
   
   footer p {
     text-align: center;
     color: white;
     margin: 2px 0;
+  
   }
   
   .contact-me {
@@ -46,4 +52,5 @@ footer {
     /* margin-bottom: 10px; */
     color: white;
     text-align: center;
+    padding: 10px;
   }

@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     border: rgb(54, 33, 62) solid 8px;
-    border-radius: 25px;
+    border-radius: 13px;
     width: 80%;
     background-image: linear-gradient(to bottom right, #63768D, #8AC6D0);
     padding-bottom: 60px;
@@ -22,11 +22,11 @@
 .summaryTitle {
     font-size: 60px;
     font-weight: 900;
-    color: #36213E; 
-
+    color: #36213E;
 }
+
 .result {
-    color: white; 
+    color: white;
     margin-top: 10px;
     font-size: 30px;
 }
@@ -36,34 +36,51 @@
     flex-direction: column;
     margin: 5% 10%;
     background: rgba(184, 243, 255, 0.85);
-    border-radius: 16px;
+    border-radius: 12px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(184, 243, 255, 0.19);
-    padding: 5%; 
+    padding: 15px;
 }
 
 .question {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
-    color: rgba(43, 23, 50, 1); 
+    color: rgb(31, 7, 40);
+        background-color: rgba(154, 199, 239, 0.62);
+        padding: 10px;
 }
 
 .yourAnswer {
     font-weight: 600;
-    color: rgba(43, 23, 50, 1);
+    color: rgb(74, 3, 100);
+        font-size: 18px;
+    
+    }
+    
+    .userAnswer {
+        font-weight: 600;
+        color: rgb(49, 1, 1);
+        font-size: 18px;
+        background-color: #eaf42b7c;
+        padding: 10px;
 }
 
 .correctAnswer {
-    color: rgba(43, 23, 50, 1);
+    color: black;
+        background-color: #eda09abc;
+        font-weight: 400;
+        padding: 10px;
 }
 
-@media (max-width: 425px) {
-
+/* Media Query for Smaller Screens (e.g., mobile) */
+@media screen and (max-width: 425px) {
     .summaryTitle {
         font-size: 30px;
+        /* Adjust font size for smaller screens */
     }
 
     .result {
         font-size: 20px;
+        /* Adjust font size for smaller screens */
     }
 }

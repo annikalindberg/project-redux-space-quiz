@@ -3,20 +3,35 @@
     flex-direction: column;
     align-items: center;
     border: rgb(54, 33, 62) solid 8px;
-    border-radius: 25px;
-    max-width: 760px;
-    width: 70%;
+    border-radius: 10px;
     background-image: linear-gradient(to bottom right, #63768D, #8AC6D0);
-    padding-bottom: 60px;
-    margin-bottom: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 40px;
+/* Mobile Styles */
+    width: 100%;
+    margin: 0;
+    /* Reset margins */
 }
 
 .quizTitle {
-    font-size: 60px;
-    font-weight: 900;
-    color: #36213E; 
-
+    font-size: 36px;
+    /* Reduce font size for mobile */
+    font-weight: 700;
+    /* Reduce font weight for mobile */
+    color: #36213E;
 }
+
+/* Breakpoint for Larger Screens (e.g., tablets) */
+@media screen and (min-width: 768px) {
+    .headerContainer {
+        padding: 40px;
+        /* Increase padding for larger screens */
+    }
+
+                                                                .quizTitle {
+                                                                    font-size: 60px;
+        /* Restore font size for larger screens */
+        font-weight: 900;
+        /* Restore font weight for larger screens */
+        }
+}
+
+/* Add more breakpoints and adjust styles as needed for other screen sizes */

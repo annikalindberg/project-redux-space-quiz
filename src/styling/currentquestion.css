@@ -1,10 +1,11 @@
 .questionContainer {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     border: 2px solid black;
     background-color: #554971;
-    max-width: 760px;
-    width: 70%;
+    max-width: 100%;
+        /* Adjust max-width for mobile */
+        width: 90%;
+        /* Adjust width for mobile */
     margin-top: 30px;
     border-radius: 20px;
     box-shadow: 7px 4px 14px 20px rgba(138, 198, 208, 0.3);
@@ -14,13 +15,15 @@
 .optionBtn {
     background-color: #B8F3FF;
     color: black;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+        /* Adjust padding for mobile */
+        margin: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.2rem;
-    width: 50%;
+    margin: 10px auto;
+        font-size: 1rem;
+        /* Reduce font size for mobile */
+        width: 80%;
+        /* Adjust width for mobile */
     border-radius: 20px;
     box-shadow: 5px 10px rgba(138, 198, 208, 0.3);
 }
@@ -30,10 +33,41 @@
 }
 
 h1 {
-    font-size: 1.5rem;
-    margin: 10% 20%;
+    font-size: 1.2rem;
+        /* Increase font size for mobile */
+        margin: 10% 10%;
+        /* Adjust margins for mobile */
     text-align: center;
     color: white;
     font-weight: 400;
-
 }
+
+/* Breakpoint for Larger Screens (e.g., tablets) */
+@media screen and (min-width: 768px) {
+    .questionContainer {
+        max-width: 760px;
+        /* Restore max-width for larger screens */
+        width: 70%;
+        /* Restore width for larger screens */
+        padding: 40px;
+        /* Increase padding for larger screens */
+    }
+
+    .optionBtn {
+        font-size: 1.2rem;
+        /* Restore font size for larger screens */
+        width: 50%;
+        /* Restore width for larger screens */
+        padding: 20px;
+        /* Restore padding for larger screens */
+    }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                h1 {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    font-size: 1.5rem;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    /* Restore font size for larger screens */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    margin: 10% 20%;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    /* Restore margins for larger screens */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+}
+
+/* Add more breakpoints and adjust styles as needed for other screen sizes */
