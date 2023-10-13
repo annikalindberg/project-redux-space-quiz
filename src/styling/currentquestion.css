@@ -43,22 +43,22 @@ p {
 }
 
 /* Breakpoint for Larger Screens (e.g., tablets) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 668px) {
     .questionContainer {
         max-width: 760px;
         /* Restore max-width for larger screens */
-        width: 70%;
+        width: 100%;
         /* Restore width for larger screens */
         padding: 40px;
         /* Increase padding for larger screens */
     }
 
     .optionBtn {
-        font-size: 1.2rem;
+        font-size: 1rem;
         /* Restore font size for larger screens */
         width: 50%;
         /* Restore width for larger screens */
-        padding: 20px;
+        padding: 15px;
         /* Restore padding for larger screens */
     }
 

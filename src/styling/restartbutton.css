@@ -17,11 +17,12 @@
     color: white;
 }
 /* Breakpoint for Smaller Screens (e.g., mobile) */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 667px) {
     .restart-button {
         width: 100%;
+        max-width: 400px;
         /* Full width for smaller screens */
-        font-size: 1rem;
+        font-size: 1.3rem;
         /* Reduce font size for smaller screens */
     }
 }
